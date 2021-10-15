@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-provider" />
+        <module name="user-provider2" />
+        <module name="eureka-server" />
+        <module name="user-consumer" />
+        <module name="itheima-rest-consumer" />
+        <module name="itheima-rest-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.5" />
+      <module name="itheima-rest-consumer" target="1.5" />
+      <module name="itheima-rest-provider" target="1.5" />
+      <module name="springcloud-parent" target="1.5" />
+      <module name="user-consumer" target="1.5" />
+      <module name="user-provider" target="1.5" />
+      <module name="user-provider2" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
