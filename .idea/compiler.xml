@@ -17,7 +17,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="itheima-rest-consumer" target="1.8" />
-      <module name="itheima-rest-provider" target="1.5" />
+      <module name="itheima-rest-provider" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
       <module name="user-consumer" target="1.8" />
       <module name="user-provider" target="1.8" />
@@ -28,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="itheima-rest-consumer" options="-parameters" />
+      <module name="itheima-rest-provider" options="-parameters" />
       <module name="user-consumer" options="-parameters" />
       <module name="user-provider" options="-parameters" />
       <module name="user-provider2" options="-parameters" />
