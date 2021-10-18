@@ -1,0 +1,6 @@
+/itheima-rest-consumer/target/
+/itheima-rest-provider/target/
+/springcloud-parent/eureka-server/target/
+/springcloud-parent/user-consumer/target/
+/springcloud-parent/user-provider/target/
+/springcloud-parent/user-provider2/target/
