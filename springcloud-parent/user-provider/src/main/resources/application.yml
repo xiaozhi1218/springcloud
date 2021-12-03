@@ -5,7 +5,7 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/springcloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
   application:
-    name: user-provider
+    name: user-provider #服务的名字,不同的应用，名字不同，如果是集群，名字需要相同
 server:
   port: 18081
 
@@ -15,6 +15,7 @@ eureka:
     service-url:
       # EurekaServer的地址
       defaultZone: http://localhost:7001/eureka
+    # 每隔30s读取服务中心列表，（只读备份）
     registry-fetch-interval-seconds: 30
   instance:
     ip-address: 127.0.0.1 # 设置该微服务的ip地址
@@ -22,4 +23,4 @@ eureka:
     #租约到期，服务时效时间，默认值90秒
     lease-expiration-duration-in-seconds: 35
     #租约续约间隔时间，默认30秒
-    lease-renewal-interval-in-seconds: 15
+    lease-renewal-interval-in-seconds: 15  # 每隔15秒做一次心跳监测
